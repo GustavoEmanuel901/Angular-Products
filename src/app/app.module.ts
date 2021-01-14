@@ -28,7 +28,8 @@ import { ProductReadComponent } from './components/products/product-read/product
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
-import { ProductUpdateComponent } from './components/products/product-update/product-update.component'
+import { ProductUpdateComponent } from './components/products/product-update/product-update.component';
+import { ProductDeleteComponent } from './components/products/product-delete/product-delete.component'
 
 registerLocaleData(localePt)
 
@@ -44,6 +45,7 @@ registerLocaleData(localePt)
     CreateComponent,
     ProductReadComponent,
     ProductUpdateComponent,
+    ProductDeleteComponent,
   ],
   imports: [
     BrowserModule,
