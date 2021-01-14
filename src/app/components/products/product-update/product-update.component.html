@@ -1,8 +1,8 @@
 <mat-card>
-  <mat-card-title>Novo Produto</mat-card-title>
+  <mat-card-title>Alterar Produto</mat-card-title>
 
   <form>
-    <mat-form-field class="item">
+    <mat-form-field class='item'>
       <input
         matInput
         placeholder="Nome"
@@ -11,7 +11,7 @@
       />
     </mat-form-field>
 
-    <mat-form-field class="item">
+    <mat-form-field class='item'>
       <input
         matInput
         placeholder="Preço (R$)"
@@ -21,9 +21,11 @@
     </mat-form-field>
   </form>
 
-  <button mat-raised-button (click)="createProduct()" color="primary">
+  <button mat-raised-button (click)='updateProduct()' color='primary'>
     Salvar
   </button>
 
-  <button mat-raised-button (click)="cancel()">Cancelar</button>
+  <button mat-raised-button (click)='cancel()'>
+    Cancelar
+  </button>
 </mat-card>
